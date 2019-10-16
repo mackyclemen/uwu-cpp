@@ -6,17 +6,18 @@ int main(int argc, char** argv) {
 
 	// Initiate a variable to store input
 	std::string stringToTranslate;
-	if(argc<2)
-	{
-		// Might as well greet the user
+	
+	// Check if we have arguments to be translated.
+	if( argc < 2 ) {
+		// We greet the user
 		std::cout << "Welcome to the uwu translator!" << std::endl;
 		std::cout << "Enter string to translate: ";
 		
 		// Gets user input and saves it to a variable
 		std::getline(std::cin, stringToTranslate);
-	}
-	else
-	{
+	} else {
+		// There's a string argument. Save this to the variable
+		// to be translated later.
 		stringToTranslate = argv[1];
 	}
 	

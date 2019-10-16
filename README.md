@@ -9,6 +9,10 @@ To use this in any of your C++ projects, just include the uwulib.h file. See bel
 The translator only converts the letters 'l' and 'r' to the letter 'w', as well as any words that have 'mo' and 'no' to 'myo-' and 'nyo-'.
 Also, who dares to forget the 'uwu' at the end!?
 
+## How do I use the command line tool?
+You can launch the command line in interactive mode by launching the executable,
+or jump straight to the translation by passing text (with quotes) as a parameter in the command line.
+
 ## sounds cool! sign me up!
 Just clone this repository to your local device and compile it with a C++ compiler of your choice!
 
